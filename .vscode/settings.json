@@ -1,0 +1,5 @@
+{
+    "git.decorations.enabled": true,
+    "git.enableCommitSigning": false,
+    "git.enabled": false
+}
