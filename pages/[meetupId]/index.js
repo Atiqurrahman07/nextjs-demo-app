@@ -25,7 +25,7 @@ function MeetupDetails(props) {
 
 export async function getStaticPaths() {
    const client = await MongoClient.connect(
-      "mongodb+srv://ATIQURRAHMAN:yAP2S54kd6GktAKb@cluster0.ceo0cji.mongodb.net/meetups?retryWrites=true&w=majority");
+      "mongodb+srv://ATIQURRAHMAN:XNhMbWoCDRgtYdcD@cluster0.ceo0cji.mongodb.net/meetups?retryWrites=true&w=majority");
     // mongoclint is use for connect data with database
     
     const db = client.db();
@@ -51,7 +51,7 @@ export async function getStaticProps(context) {
   const meetupId = context.params.meetupId;
 //   console.log(meetupId);
   const client = await MongoClient.connect(
-   "mongodb+srv://ATIQURRAHMAN:yAP2S54kd6GktAKb@cluster0.ceo0cji.mongodb.net/meetups?retryWrites=true&w=majority");
+   "mongodb+srv://ATIQURRAHMAN:XNhMbWoCDRgtYdcD@cluster0.ceo0cji.mongodb.net/meetups?retryWrites=true&w=majority");
  // mongoclint is use for connect data with database
  
  const db = client.db();
